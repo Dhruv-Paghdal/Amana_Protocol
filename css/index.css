@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Ubuntu",sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+#navBar {
+  border-bottom: 1px solid rgba(74,74,74,0.6);
+}
+
+#home, #about, #skills, #project {
+    color: #FC3D39 ;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+
+#home:hover,
+#about:hover,
+#skills:hover,
+#project:hover {
+  background-color: rgba(245, 245, 245, 0.918);
+}
+
+.topBanner {
+  background: #000;
+  height: 95vh;
+  width: 100%;
+}
+
+.nav-link {
+  font-size: 1.3rem;
+  border: solid 1px transparent;
+  border-radius: 3px;
+}
+
+.navInfo {
+ height: 80%;
+}
+
+.navText h1{
+    font-size: 4rem;
+}
+
+.navText p{
+    font-size: 2rem;
+    font-weight: 100;
+    width: 90vh;
+    color: rgba(245, 245, 245, 0.904);
+    font-family: "Sabana";
+}
+
+.navText button{
+    background-color: #FC3D39;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.navImage img{
+    height: 25vh;
+}
+
+.content{
+    background-color: white;
+}
+
+.card{
+    background-color: rgb(36, 36, 36);
+    border-radius: 25px;
+}
+
+.card-title{
+    color: #FC3D39;
+    font-size: 2.2rem;
+}
+
+.card-text{
+    color: rgba(245, 245, 245, 0.719);
+    font-family: "Sabana";
+    font-size: 2.3rem;
+    /* line-height: 2.75rem; */
+}
+
+.mainContentImgTop{
+    margin-right: 2.5rem;
+}
+
+.mainContentImgBottom{
+    margin-left: 2.5rem;
+}
+
+.whyText{
+    font-family: 'Sabana';
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.whatText{
+    font-family: 'Sabana';
+    font-size: 2.2rem;
+    color: rgba(245, 245, 245, 0.678);
+}
+
+.howText{
+    font-family: 'Sabana';
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.howList{
+    font-family: 'Sabana';
+    font-size: 2rem;
+    color: rgba(0, 0, 0, 0.596);
+}
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+
+    .topBanner{
+        height: 100%;
+    }
+
+    .navText h1{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .navText p{
+        margin-right: 1rem;
+        margin-left: 1rem;
+        width: auto;
+    }
+
+    .navText button{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+
+    .navInfo {
+        height: auto;
+    }
+
+    .navImage img{
+        margin-top:1.5rem;
+        margin-bottom:1.5rem;
+        height: 35vh;
+    }
+
+    .card-text{
+        font-size: 2rem;
+    }
+
+    .mainContentImgTop{
+        margin-right: 0rem;
+        margin-bottom: 1rem;
+    }
+    
+    .mainContentImgBottom{
+        margin-left: 0rem;
+    }
+}
