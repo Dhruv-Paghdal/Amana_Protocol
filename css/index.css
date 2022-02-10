@@ -22,8 +22,8 @@ h2 {
 }
 
 #why, #what, #how, #compliance, #dashboard,#contact {
-    color: #FC3D39 ;
-    font-weight: 900;
+    color: white ;
+    font-weight: 500;
     font-size: 1.2rem;
 }
 
@@ -33,7 +33,7 @@ h2 {
 #compliance:hover,
 #dashboard:hover,
 #contact:hover {
-  background-color: rgba(245, 245, 245, 0.918);
+  background-color: #fc3c39d3;
 }
 
 .topBanner {
