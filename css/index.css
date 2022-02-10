@@ -339,6 +339,10 @@ footer a{
     .timeline ul li div {
         width: calc(100vw - 91px);
     }
+    
+    .complianceDiv{
+        width: calc(100vw - 120px) !important;
+    }
        
     .timeline ul li:nth-child(even) div {
         left: 45px;
