@@ -19,6 +19,9 @@ h2 {
 
 #navBar {
 /*   border-bottom: 1px solid rgba(74,74,74,0.6); */
+  z-index: 999;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 #why, #what, #how, #compliance, #dashboard,#contact {
