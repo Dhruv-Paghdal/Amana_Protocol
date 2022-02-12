@@ -14,7 +14,7 @@
 <body>
     <div class="topBanner">
         <a name="top"></a>
-        <nav class="navbar navbar-expand-lg navbar-light w-100 pt-0 pb-0 px-lg-5 px-xl-5 px-xxl-5" id="navBar">
+        <nav class="navbar navbar-expand-lg navbar-light w-100 pt-0 pb-0 px-lg-5 px-xl-5 px-xxl-5 fixed-top" id="navBar">
             <div class="container-fluid d-flex">
               <div class="m-3">
                   <img src="images/fei-usd-fei-logo.svg" alt="" style="height: 10vh;">
@@ -43,6 +43,9 @@
               The Amana Protocol is a Shari’ah-compliant framework for Islamic convertibility and tokenization of digital crypto assets.
             </p>
             <a href="#howSec"><button class="btn px-4 py-3">Get Amana</button></a>
+            <button class="btn px-4 py-3 headerButton">Amana DAO</button>
+            <button class="btn px-4 py-3 headerButton">ABTH</button>
+            <button class="btn px-4 py-3 headerButton">AETH</button>
           </div>
         </div>
     </div>
@@ -59,15 +62,8 @@
           <div class="card" data-aos="fade-right">
             <div class="card-body mx-2">
               <h5 class="card-title text-center my-5"><span style="color: whitesmoke;">Our</span> Vision</h5>
-              <div class="d-flex flex-column flex-sm-row justify-content-evenly align-items-center pt-4 pb-2">
-                <img src="images/casper-cspr-logo.svg" class="mainContentImgTop" alt="" style="height: 25vh;">
+              <div class="d-flex flex-column flex-sm-row justify-content-evenly align-items-center">
                 <p class="card-text mb-5">
-                  Cryptocurrencies are becoming increasingly popular as both a store of value and transactional currency. As platforms continue to open up channels for the acceptance and utilization of cryptocurrencies in everyday transactions, the digital asset class is becoming progressively more popular. Unfortunately, for many of the adherents of the religion of Islam, cryptocurrencies continue to be deemed impermissible by Islamic scholars. The Islamic code of law that governs financial transactions, Shari’ah law, dictates that the high volatility in cryptocurrencies creates an inherent level of risk which invalidates cryptocurrencies as permissible investments for followers of the Islamic faith.
-                </p>
-              </div>
-              <hr style="color: rgb(179, 180, 180);">
-              <div class="d-flex flex-column flex-sm-row justify-content-evenly align-items-center pt-2">
-                <p class="card-text my-5">
                   The Amana Protocol has worked extensively with experts in the field of Islamic Finance, Islamic legal scholars and crypto technology specialists to develop a methodology that enables Muslims to purchase, hold, trade and redeem cryptocurrencies in a fully Shari’ah compliant framework. The Amana Protocol currently remains the only protocol to obtain a fatwa (Islamic legal declaration) for Shari’ah compliance from leading Islamic scholars. The full advantages of cryptocurrencies as a store of value, a means of transaction and as a secure and transparent network can now be accessed in a Shari’ah-compliant token by Muslims around the world.
                 </p>
                 <img src="images/alpha-finance-lab-alpha-logo.svg" class="mainContentImgBottom" alt="" style="height:25vh;">
@@ -78,23 +74,38 @@
       </div>
       <div class="container py-5">
         <a name="whySec"><h1 class="text-center my-5" style="color: #FC3D39;">Why?</h1></a>
+        <div class="d-flex flex-column flex-sm-row justify-content-evenly align-items-center pt-4 container" data-aos="zoom-in">
+          <img src="images/casper-cspr-logo.svg" class="mainContentImgTop" alt="" style="height: 25vh;">
+          <p class="whyText pb-5">
+            Cryptocurrencies are becoming increasingly popular as both a store of value and transactional currency. As platforms continue to open up channels for the acceptance and utilization of cryptocurrencies in everyday transactions, the digital asset class is becoming progressively more popular. Unfortunately, for many of the adherents of the religion of Islam, cryptocurrencies continue to be deemed impermissible by Islamic scholars. The Islamic code of law that governs financial transactions, Shari’ah law, dictates that the high volatility in cryptocurrencies creates an inherent level of risk which invalidates cryptocurrencies as permissible investments for followers of the Islamic faith.
+          </p>
+        </div>
         <p class="whyText container pb-5" data-aos="zoom-in">
           For the 1.5 billion followers of the Islamic religion, many Muslims also continue to face socioeconomic and geopolitical tensions which have created instability and unpredictability for their native fiat currency. Many Muslim families have seen the value of their assets decline rapidly as a result of crashes in currency and runaway inflation. Rapid declines in purchasing power have placed tremendous pressure on struggling families who continue to battle against rising inflation, limited monetary liquidity and higher costs of basic goods. For other Muslims, they continue to live in countries whereby trade restrictions and limitations on international trade and employment have created socioeconomic pressure and an inability to participate or benefit from opportunities in international business or foreign trade.
         </p>
-        <div class="d-flex flex-column flex-sm-row justify-content-between align-items-center">
-          <div class="card whyCardImage col-md-4" data-aos="fade-right">
-            <div class="card-body">
-              <img src="images/1.5Billion.png" class="card-img-top" alt="..." >
+        <div class="row">
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="images/1.5Billion.png" class="card-img-top mt-3" alt="Card Image">
+              <div class="card-body d-flex flex-column">
+                <p class="mb-4" style="color: #FC3D39; font-size: 22px;">1.5 billion muslims around the world.</p>
+              </div>
             </div>
           </div>
-          <div class="card whyCard whyCardImage my-4 col-md-4" data-aos="fade-right">
-            <div class="card-body">
-              <img src="images/map-oic.png" class="card-img-top" alt="..." >
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="images/map-population.png" class="card-img-top mt-3" alt="Card Image">
+              <div class="card-body d-flex flex-column">
+                <p class="mt-5" style="color: #FC3D39; font-size: 22px;">There are 57 Muslim majority countries recognized by the OIC.</p>
+              </div>
             </div>
           </div>
-          <div class="card whyCardImage col-md-4" data-aos="fade-right">
-            <div class="card-body">
-              <img src="images/currency-crash.png" class="card-img-top" alt="..." >
+          <div class="col-lg-4 mb-3 d-flex align-items-stretch">
+            <div class="card">
+              <img src="images/curriences.jpg" class="card-img-top p-1" alt="Card Image" style="border-top-left-radius:23px ;border-top-right-radius:23px ;">
+              <div class="card-body d-flex flex-column">
+                <p class="mb-4" style="color: #FC3D39; font-size: 22px;">Many currencies in the Muslim World have come under pressure as purchasing power has declined.</p>
+              </div>
             </div>
           </div>
         </div>
@@ -109,12 +120,49 @@
             </p>
           </div>
           <hr style="color: rgb(179, 180, 180);">
-          <div class="pt-2">
+          <div class="d-flex flex-column flex-sm-row justify-content-evenly align-items-center pt-2">
             <p class="whatText container my-5" data-aos="zoom-in">
               By creating a Shari’ah-compliant layer of market microstructure and using smart contracts to manage the distribution, pricing and supply of Amana tokens, the Amana Protocol creates a layer of infrastructure to provide stability and oversight in an otherwise non-Shari’ah compliant market. By pegging the token price to the underlying Bitcoin or Ethereum and regulating the supply of tokens, Amana tokens are designed to function as stablecoin while also retaining many of the benefits of the underlying cryptocurrencies.
+              <button class="btn mt-2 px-4 py-3 whitePaper">Whitepaper </button>
             </p>
-            <img src="images/whatImage.png" class="img-fluid h-auto" alt="..." data-aos="fade-right">
+            <img src="images/solana-sol-logo.svg" class="mainContentImgBottom" style="height: 25vh;" data-aos="fade-right">
           </div>
+          <!-- <img src="images/whatImage.png" class="whatImage img-fluid h-auto" alt="..." data-aos="fade-right"> -->
+          <h2 class="roadmapHeading pb-4 mb-2">What is Amana</h2>
+          <section id="roadmap" class="timeline pb-4">
+            <ul>
+              <li class="in-view view2" data-aos="fade-right" style="background-color: red;">
+                <div class="d-flex justify-content-center whatRoad">
+                  <h4>Amana Token</h4>
+                  <img src="images/tokenImg.png" alt="" style="width: 50%; height: 50%;">
+                </div>
+              </li>
+              <li class="in-view view2" data-aos="fade-right" style="background-color: red;">
+                <div class="d-flex justify-content-center whatRoad">
+                  <h4>User</h4>
+                  <img src="images/userImg.png" alt="" style="width: 50%; height: 50%;">
+                </div>
+              </li>
+              <li class="in-view view2" data-aos="fade-right" style="background-color: red;">
+                <div class="d-flex justify-content-center whatRoad">
+                  <h4>Amana Protocol</h4>
+                  <img src="images/protocolImg.png" alt="" style="width: 50%; height: 50%;">
+                </div>
+              </li>
+              <li class="in-view view2" data-aos="fade-right" style="background-color: red;">
+                <div class="d-flex justify-content-center whatRoad">
+                  <h4>Amana Pricing</h4>
+                  <img src="images/APPA.png" alt="" style="width: 50%; height: 50%;">
+                </div>
+              </li>
+              <li class="in-view view2" data-aos="fade-right" style="background-color: red;">
+                <div class="d-flex justify-content-center whatRoad">
+                  <h4>Crypto Currencies</h4>
+                  <img src="images/combine.png" alt="" style="width: 50%; height: 50%;">
+                </div>
+              </li>
+            </ul>
+        </section>
         </div>
       </div>
       <div class="container py-5">
@@ -237,10 +285,13 @@
                 </ul>
                </section>   
               <hr style="color: rgb(179, 180, 180);">
-              <div class="d-flex flex-column flex-sm-row justify-content-evenly align-items-center pt-2">
-                <p class="card-text my-5">
+              <div class="d-flex flex-column justify-content-evenly align-items-center pt-2">
+                <p class="card-text mt-5">
                   Such compliance is necessary on an ongoing basis to not only ensure adherence to the Shari’ah requirements of the protocol but also to provide additional oversight and transparency into the activities of the custodian, the distribution of the tokens and the transactions in the Blockchain.
                 </p>
+                <div class="mt-3 mb-5">
+                  <img class="rounded" src="images/algebra.png" alt="">
+                </div>
               </div>
             </div>
           </div>
@@ -266,15 +317,15 @@
           <div class="card bg-transparent border-0 my-4" style="width: 18rem; height:auto; " data-aos="fade-right">
             <img src="images/team.png" class="card-img-top p-3" alt="...">
             <div class="card-body">
-              <h5 class="card-title text-center text-capitalize">Kris</h5>
+              <h5 class="card-title text-center text-capitalize">Ehsan</h5>
               <p class="card-text text-black text-center text-capitalize fs-2">Exchanges & Listings</p>
             </div>
           </div>
           <div class="card bg-transparent border-0 my-4" style="width: 18rem; height:auto; " data-aos="fade-right">
             <img src="images/team.png" class="card-img-top p-3" alt="...">
             <div class="card-body">
-              <h5 class="card-title text-center text-capitalize">Haziq</h5>
-              <p class="card-text text-black text-center text-capitalize fs-2">Markets</p>
+              <h5 class="card-title text-center text-capitalize">Mehmet</h5>
+              <p class="card-text text-black text-center text-capitalize fs-2">Amana DAO</p>
             </div>
           </div>
         </div>    
@@ -282,7 +333,14 @@
           <div class="card bg-transparent border-0 my-4" style="width: 18rem; height:auto; " data-aos="fade-right">
             <img src="images/team.png" class="card-img-top p-3" alt="...">
             <div class="card-body">
-              <h5 class="card-title text-center text-capitalize">Samir</h5>
+              <h5 class="card-title text-center text-capitalize">Haziq</h5>
+              <p class="card-text text-black text-center text-capitalize fs-2">Markets</p>
+            </div>
+          </div> 
+          <div class="card bg-transparent border-0 my-4" style="width: 18rem; height:auto; " data-aos="fade-right">
+            <img src="images/team.png" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-capitalize">Luka</h5>
               <p class="card-text text-black text-center text-capitalize fs-2">Technology</p>
             </div>
           </div>
@@ -297,7 +355,16 @@
             <img src="images/team.png" class="card-img-top p-3" alt="...">
             <div class="card-body">
               <h5 class="card-title text-center text-capitalize">Max</h5>
-              <p class="card-text text-black text-center text-capitalize fs-2">Max/Audit & Compliance</p>
+              <p class="card-text text-black text-center text-capitalize fs-2">Audit & Compliance</p>
+            </div>
+          </div>
+        </div>
+        <div class=" dashboardCard d-flex flex-column flex-sm-row justify-content-between align-items-stretch">
+          <div class="card bg-transparent border-0 my-4" style="width: 18rem; height:auto; " data-aos="fade-right">
+            <img src="images/team.png" class="card-img-top p-3" alt="...">
+            <div class="card-body">
+              <h5 class="card-title text-center text-capitalize">Jumeidi </h5>
+              <p class="card-text text-black text-center text-capitalize fs-2">Strategy</p>
             </div>
           </div>
           <div class="card bg-transparent border-0 my-4" style="width: 18rem; height:auto; " data-aos="fade-right">
@@ -307,8 +374,6 @@
               <p class="card-text text-black text-center text-capitalize fs-2">Regional Engagement</p>
             </div>
           </div>
-        </div>
-        <div class=" dashboardCard d-flex flex-column flex-sm-row justify-content-between align-items-stretch">
           <div class="card bg-transparent border-0 my-4" style="width: 18rem; height:auto; " data-aos="fade-right">
             <img src="images/team.png" class="card-img-top p-3" alt="...">
             <div class="card-body">
@@ -323,13 +388,15 @@
               <p class="card-text text-black text-center text-capitalize fs-2">Regional Engagement</p>
             </div>
           </div>
+        </div>
+        <div class="dashboardCard d-flex flex-column flex-sm-row justify-content-center align-items-stretch">
           <div class="card bg-transparent border-0 my-4" style="width: 18rem; height:auto; " data-aos="fade-right">
             <img src="images/team.png" class="card-img-top p-3" alt="...">
             <div class="card-body">
               <h5 class="card-title text-center text-capitalize">Kazim</h5>
               <p class="card-text text-black text-center text-capitalize fs-2">Regional Engagement</p>
             </div>
-          </div>
+          </div> 
           <div class="card bg-transparent border-0 my-4" style="width: 18rem; height:auto; " data-aos="fade-right">
             <img src="images/team.png" class="card-img-top p-3" alt="...">
             <div class="card-body">
@@ -337,8 +404,6 @@
               <p class="card-text text-black text-center text-capitalize fs-2">Regional Engagement</p>
             </div>
           </div>
-        </div>
-        <div class="dashboardCard d-flex flex-column flex-sm-row justify-content-center align-items-stretch">
           <div class="card bg-transparent border-0 my-4" style="width: 18rem; height:auto; " data-aos="fade-right">
             <img src="images/team.png" class="card-img-top p-3" alt="...">
             <div class="card-body">
@@ -351,7 +416,7 @@
     </div>
     <footer style="background-color: #000;">
       <a name="contactSec"><div class="container text-light"></a>
-        <h2 class="footerHeading py-4">Reach Us</h2>
+        <h2 class="footerHeading py-4">Contact Us</h2>
         <div class="container">
           <ul style="padding: 0%;" class="row"> 
             <li>
@@ -361,13 +426,13 @@
                 <li style="font-weight: 300;">Mahe, Seychelles</li>
                 <li style="font-weight: 300;">
                   <i class="fas fa-envelope" style="color: #FC3D39;"></i>
-                  <a href="mailto:info@amanaprotol.io" style="color: whitesmoke;">info@amanaprotol.io</a>
+                  <a href="mailto:info@amanaprotocol.io" style="color: whitesmoke;">info@amanaprotocol.io</a>
                 </li>
               </ul>
             </li>
           </ul>
         </div>
-        <h2 class="footerHeading py-4">Our Branches</h2>
+        <h2 class="footerHeading py-4">Our Network</h2>
         <div class="container">  
           <ul style="padding: 0%;" class="row">  
             <li class="col-md-4">
@@ -383,7 +448,7 @@
             <li class="col-md-4">
               <ul style="padding: 0%;" class="footerRow">
                 <li style="color: #FC3D39; font-weight: 700;">Markets Desk</li>
-                <li style="font-weight: 300;">Washington, DC</li>
+                <li style="font-weight: 300;">Dubai, UAE</li>
                 <li style="font-weight: 300;">
                   <i class="fas fa-envelope" style="color: #FC3D39;"></i>
                   <a href="mailto:markets@amanaprotocol.io" style="color: whitesmoke;">markets@amanaprotocol.io</a>
@@ -424,19 +489,9 @@
                 </li>
               </ul>
             </li>
-            <li class="col-md-4">
-              <ul style="padding: 0%;" class="footerRow">
-                <li style="color: #FC3D39; font-weight: 700;">Headquarters</li>
-                <li style="font-weight: 300;">Mahe, Seychelles</li>
-                <li style="font-weight: 300;">
-                  <i class="fas fa-envelope" style="color: #FC3D39;"></i>
-                  <a href="mailto:info@amanaprotocol.io" style="color: whitesmoke;">info@amanaprotocol.io</a>
-                </li>
-              </ul>
-            </li>
           </ul>
         </div>
-        <h2 class="footerHeading py-4">Regional Engagement Centre</h2>
+        <h2 class="footerHeading py-4">Regional Engagement Centres</h2>
         <div class="container">
           <ul style="padding: 0%;" class="row">
             <li class="col-md-4">
@@ -450,7 +505,7 @@
             </li>
             <li class="col-md-4">
               <ul style="padding: 0%;" class="footerRow">
-                <li style="font-weight: 300;"><span style="color: #FC3D39; font-weight: 500;">Asia</span> – Jakarta, Indonesia</li>
+                <li style="font-weight: 300;"><span style="color: #FC3D39; font-weight: 500;">Southeast Asia</span> – Jakarta, Indonesia</li>
                 <li style="font-weight: 300;">
                   <i class="fas fa-envelope" style="color: #FC3D39;"></i>
                   <a href="mailto:asia@amanaprotocol.io" style="color: whitesmoke;">asia@amanaprotocol.io</a>
@@ -481,6 +536,28 @@
             </li>
             <li class="col-md-4">
               <ul style="padding: 0%;" class="footerRow">
+                <li style="font-weight: 300;"><span style="color: #FC3D39; font-weight: 500;">Africa </span> – Lagos, Nigeria</li>
+                <li style="font-weight: 300;">
+                  <i class="fas fa-envelope" style="color: #FC3D39;"></i>
+                  <a href="mailto:africa@amanaprotocol.io" style="color: whitesmoke;">africa@amanaprotocol.io</a>
+                </li>
+              </ul>
+            </li>
+            <li class="col-md-4">
+              <ul style="padding: 0%;" class="footerRow">
+                <li style="font-weight: 300;"><span style="color: #FC3D39; font-weight: 500;">Asia Pacific</span> – Hong Kong</li>
+                <li style="font-weight: 300;">
+                  <i class="fas fa-envelope" style="color: #FC3D39;"></i>
+                  <a href="mailto:asiapacific@amanaprotocol.io" style="color: whitesmoke;">asiapacific@amanaprotocol.io</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul style="padding: 0%;" class="row">
+            <li class="col-md-4">
+              <ul style="padding: 0%;" class="footerRow">
                 <li style="font-weight: 300;"><span style="color: #FC3D39; font-weight: 500;">Middle East & North Africa</span> – Istanbul, Turkey</li>
                 <li style="font-weight: 300;">
                   <i class="fas fa-envelope" style="color: #FC3D39;"></i>
@@ -498,6 +575,7 @@
     </footer>
 </body>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="scripts/index.js"></script>
 <script>
   AOS.init();
 </script>

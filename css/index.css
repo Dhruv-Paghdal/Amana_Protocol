@@ -53,6 +53,7 @@ h2 {
 
 .navInfo {
  height: 80%;
+ padding-top: 20vh;
 }
 
 .navText h1{
@@ -70,9 +71,13 @@ h2 {
 .navText button{
     background-color: #FC3D39;
     color: white;
-    font-size: 1.5rem;
-    border-radius: 45px;
+    font-size: 1.1rem;
+    border-radius: 41px;
     font-family: "Ubuntu",sans-serif;
+}
+
+.headerButton{
+    margin-left: 0.5rem;
 }
 
 .navText button:hover{
@@ -118,19 +123,23 @@ h2 {
     color: rgba(0, 0, 0, 0.808);
 }
 
-.whyCardImage{
-    height: 20rem;
-}
-
-.whyCard{
-    margin-right: 15px;
-    margin-left: 15px;
-}
-
 .whatText{
     font-family: Sabana;
     font-size: 2.2rem;
     color: rgba(245, 245, 245, 0.678);
+}
+
+.whitePaper{
+    background-color: #FC3D39;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 45px;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.whitePaper:hover{
+    background-color: white;
+    color: #FC3D39;
 }
 
 .howText{
@@ -256,7 +265,28 @@ footer a{
 .timeline ul li.in-view::after {
   background: #FC3D39;
 }
- 
+
+.view2::after{
+    background: gray !important;
+}
+
+.whatRoad{
+    background-color: #fc3c39d2 !important;
+}
+
+.whatRoad h4{
+    color: #000;
+    font-family: "Ubuntu" !important;
+}
+
+.timeline ul li:nth-child(even) .whatRoad::before{
+    border-color: transparent transparent transparent red !important;
+}
+
+.timeline ul li:nth-child(odd) .whatRoad::before{
+    border-color: transparent red transparent transparent !important;
+}
+
 .timeline ul li div {
   visibility: hidden;
   opacity: 0;
@@ -300,6 +330,7 @@ footer a{
 
     .navInfo{
         padding:3rem;
+        padding-top: 18vh;
         padding-left:1.5rem;
     }
 
@@ -318,8 +349,12 @@ footer a{
     .navText button{
         margin-right: 1rem;
         margin-left: 1rem;
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-top: 1.1rem;
+        margin-bottom: 1.1rem;
+    }
+
+    .headerButton{
+        margin-left: 0rem;
     }
 
     .navInfo {
@@ -347,13 +382,8 @@ footer a{
         margin-left: 0rem;
     }
 
-    .whyCard{
-        margin-right: 0px;
-        margin-left: 0px;
-    }
-
-    .whyCardImage{
-        height: 18rem;
+    .whatImage{
+        margin-top: 3rem;
     }
 
     .dashboardCard{
