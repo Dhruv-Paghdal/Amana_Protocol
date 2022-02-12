@@ -382,6 +382,7 @@ footer a{
     }
     
     .mainContentImgBottom{
+        height: 22vh !important;
         margin-left: 0rem;
         margin-bottom: 1rem;
     }
