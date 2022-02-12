@@ -328,6 +328,10 @@ footer a{
         height: 100%;
     }
 
+    #navBar{
+        background-color: #FC3D39 !important;
+    }
+
     .navInfo{
         padding:3rem;
         padding-top: 18vh;
