@@ -33,7 +33,7 @@ h2 {
 #compliance:hover,
 #dashboard:hover,
 #contact:hover {
-  background-color: #fc3c39d3;
+  background-color: #000;
 }
 
 .topBanner {
@@ -43,6 +43,42 @@ h2 {
   background-size: cover;
   height: 100vh;
   width: 100%;
+}
+
+.visionBackground{
+  background:linear-gradient(10deg, rgba(31, 30, 30, 0.322), rgba(31, 30, 30, 0.322)), url("../images/facts-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.whyBackground{
+  background:linear-gradient(10deg, rgba(194, 192, 192, 0.322), rgba(241, 241, 241, 0.404)), url("../images/video-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.whatBackground{
+  background:linear-gradient(10deg, rgba(31, 30, 30, 0.322), rgba(31, 30, 30, 0.322)), url("../images/data-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.howBackground{
+  background:linear-gradient(10deg, rgba(194, 192, 192, 0.322), rgba(241, 241, 241, 0.404)), url("../images/team-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.complianceBackground{
+  background:linear-gradient(10deg, rgba(31, 30, 30, 0.322), rgba(31, 30, 30, 0.322)), url("../images/docs-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.teamBackground{
+  background:linear-gradient(10deg, rgba(194, 192, 192, 0.322), rgba(241, 241, 241, 0.404)), url("../images/about-bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .nav-link {
@@ -91,6 +127,19 @@ h2 {
 
 .content{
     background-color: white;
+}
+
+.contentButton button{
+    background-color: #FC3D39;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 41px;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.contentButton button:hover{
+    background-color: white;
+    color: #FC3D39;
 }
 
 .card{
@@ -267,7 +316,7 @@ footer a{
 }
 
 .view2::after{
-    background: gray !important;
+    background: whitesmoke !important;
 }
 
 .whatRoad{
@@ -275,7 +324,7 @@ footer a{
 }
 
 .whatRoad h4{
-    color: #000;
+    color: whitesmoke;
     font-family: "Ubuntu" !important;
 }
 
@@ -357,6 +406,21 @@ footer a{
         margin-bottom: 1.1rem;
     }
 
+    .navButton{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navButton button{
+        white-space: nowrap;
+        font-size: 16px;
+        padding: .6rem !important;
+        padding-top: .9rem !important;
+        padding-bottom: .9rem !important;
+    }
+
     .headerButton{
         margin-left: 0rem;
     }
@@ -370,6 +434,13 @@ footer a{
     .navImage img{
         margin-top:6rem;
         height: 35vh;
+    }
+
+    .contentButton{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
 
     .card-text,.whyText,.whatText,.howText,.howList{
