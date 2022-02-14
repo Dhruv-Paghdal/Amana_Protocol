@@ -5,6 +5,11 @@
     src: url(../font/Sabana.woff);
   }
 
+@font-face {
+    font-family: Wizzta;
+    src: url(../font/Wizzta-vaDA.ttf);
+  }
+
 html {
   scroll-behavior: smooth;
 }
@@ -17,14 +22,7 @@ h2 {
   text-align: center;
 }
 
-#navBar {
-/*   border-bottom: 1px solid rgba(74,74,74,0.6); */
-  z-index: 999;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-}
-
-#why, #what, #how, #compliance, #dashboard,#contact {
+#why, #what, #how, #compliance, #dashboard,#contact,#team {
     color: white ;
     font-weight: 500;
     font-size: 1.2rem;
@@ -35,7 +33,8 @@ h2 {
 #how:hover,
 #compliance:hover,
 #dashboard:hover,
-#contact:hover {
+#contact:hover,
+#team:hover {
   background-color: #000;
 }
 
@@ -115,6 +114,13 @@ h2 {
     font-family: "Ubuntu",sans-serif;
 }
 
+.navButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .headerButton{
     margin-left: 0.5rem;
 }
@@ -128,8 +134,25 @@ h2 {
     height: 50vh;
 }
 
+.visionButton button{
+    background-color: #FC3D39;
+    color: white;
+    font-size: 1.1rem;
+    border-radius: 41px;
+    font-family: "Ubuntu",sans-serif;
+}
+
+.visionButton button:hover{
+    background-color: white;
+    color: #FC3D39;
+}
+
 .content{
     background-color: white;
+}
+
+.contentButton{
+    margin-top: 1rem;
 }
 
 .contentButton button{
@@ -157,8 +180,8 @@ h2 {
 
 .card-text{
     color: rgba(245, 245, 245, 0.719);
-    font-family: Sabana;
-    font-size: 2.3rem;
+    font-family: Wizzta;
+    font-size: 2.4rem;
 }
 
 .mainContentImgTop{
@@ -170,14 +193,14 @@ h2 {
 }
 
 .whyText{
-    font-family: Sabana;
-    font-size: 2.2rem;
+    font-family: Wizzta;
+    font-size: 2.3rem;
     color: rgba(0, 0, 0, 0.808);
 }
 
 .whatText{
-    font-family: Sabana;
-    font-size: 2.2rem;
+    font-family: Wizzta;
+    font-size: 2.3rem;
     color: rgba(245, 245, 245, 0.678);
 }
 
@@ -195,14 +218,14 @@ h2 {
 }
 
 .howText{
-    font-family: Sabana;
-    font-size: 2.2rem;
+    font-family: Wizzta;
+    font-size: 2.3rem;
     color: rgba(0, 0, 0, 0.808);
 }
 
 .howList{
-    font-family: Sabana;
-    font-size: 2rem;
+    font-family: Wizzta;
+    font-size: 2.1rem;
     color: rgba(0, 0, 0, 0.596);
 }
 
@@ -213,6 +236,11 @@ footer li{
 
 footer a{
     text-decoration: none;
+}
+
+.footerRow img{
+    height: 70px;
+    width: 70px;
 }
 
 .footerHeading{
@@ -377,7 +405,7 @@ footer a{
 @media screen and (min-width: 320px) and (max-width: 760px) {
 
     .topBanner{
-        height: 100vh;
+        height: 100%;
     }
 
     #navBar{
@@ -410,10 +438,8 @@ footer a{
     }
 
     .navButton{
-        display: flex;
-        flex-direction: row;
-        justify-content: start;
-        align-items: center;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .navButton button{
@@ -444,10 +470,11 @@ footer a{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        margin-top: 0%;
     }
 
     .card-text,.whyText,.whatText,.howText,.howList{
-        font-size: 1.6rem;
+        font-size: 1.75rem;
     }
 
     .mainContentImgTop{
@@ -467,6 +494,10 @@ footer a{
 
     .dashboardCard{
         align-items: center !important;
+    }
+
+    .contact{
+        text-align: center;
     }
 
     .footerRow{
