@@ -28,6 +28,7 @@ h2 {
     font-size: 1.2rem;
 }
 
+
 #why:hover,
 #what:hover,
 #how:hover,
@@ -72,7 +73,7 @@ h2 {
 }
 
 .complianceBackground{
-  background:linear-gradient(10deg, rgba(31, 30, 30, 0.322), rgba(31, 30, 30, 0.322)), url("../images/docs-bg.png");
+  background:linear-gradient(10deg, rgba(31, 30, 30, 0.322), rgba(31, 30, 30, 0.322)), url("../images/data-bg.png");
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -91,7 +92,7 @@ h2 {
 
 .navInfo {
  height: 80%;
- padding-top: 20vh;
+ padding-top: 1vh;
 }
 
 .navText h1{
@@ -103,7 +104,7 @@ h2 {
     font-weight: 100;
     width: 90vh;
     color: rgba(245, 245, 245, 0.904);
-    font-family: Sabana;
+    font-family: Wizzta;
 }
 
 .navText button{
@@ -175,17 +176,21 @@ h2 {
 
 .card-title{
     color: #FC3D39;
-    font-size: 2.2rem;
+    font-size: 3.0rem;
+    font-family:Wizzta;
 }
 
 .card-text{
     color: rgba(245, 245, 245, 0.719);
     font-family: Wizzta;
-    font-size: 2.4rem;
+    font-size: 30px;
+    line-height: 1.1;
 }
 
 .mainContentImgTop{
     margin-right: 2.5rem;
+   position:relative;
+   bottom:30px;
 }
 
 .mainContentImgBottom{
@@ -194,13 +199,15 @@ h2 {
 
 .whyText{
     font-family: Wizzta;
-    font-size: 2.3rem;
+    font-size: 30px;
+    line-height: 1.1;
     color: rgba(0, 0, 0, 0.808);
 }
 
 .whatText{
     font-family: Wizzta;
-    font-size: 2.3rem;
+    font-size: 30px;
+    line-height: 1.1;
     color: rgba(245, 245, 245, 0.678);
 }
 
@@ -210,6 +217,8 @@ h2 {
     font-size: 1.1rem;
     border-radius: 45px;
     font-family: "Ubuntu",sans-serif;
+    position: absolute;
+    right:100px
 }
 
 .whitePaper:hover{
@@ -227,6 +236,11 @@ h2 {
     font-family: Wizzta;
     font-size: 2.1rem;
     color: rgba(0, 0, 0, 0.596);
+}
+
+.footer-name{
+    font-family: Wizzta;
+    font-size:3.0rem;
 }
 
 footer li{
@@ -272,7 +286,7 @@ footer a{
 .roadmapHeading{
     color: #FC3D39;
     text-transform: capitalize;
-    font-family: Sabana;
+    font-family: Wizzta;
     font-size: 50px;
 }
 
@@ -338,12 +352,12 @@ footer a{
 }
 
 .timeline ul li::after {
-  background: #FC3D39;
+  background: black;
   transition: background .5s ease-in-out;
 }
  
 .timeline ul li.in-view::after {
-  background: #FC3D39;
+  background: black;
 }
 
 .view2::after{
@@ -351,20 +365,24 @@ footer a{
 }
 
 .whatRoad{
-    background-color: #fc3c39d2 !important;
+    background-color: white !important;
 }
 
 .whatRoad h4{
-    color: whitesmoke;
+    color: black;
     font-family: "Ubuntu" !important;
 }
 
+.footerRow li{
+    text-align: center;
+}
+
 .timeline ul li:nth-child(even) .whatRoad::before{
-    border-color: transparent transparent transparent red !important;
+    border-color: transparent transparent transparent white !important;
 }
 
 .timeline ul li:nth-child(odd) .whatRoad::before{
-    border-color: transparent red transparent transparent !important;
+    border-color: transparent white transparent transparent !important;
 }
 
 .timeline ul li div {
@@ -502,6 +520,7 @@ footer a{
 
     .footerRow{
         margin-bottom: 1rem;
+        margin-top: 1rem;
     }  
     
     footer li{
